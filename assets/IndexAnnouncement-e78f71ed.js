@@ -1,0 +1,1 @@
+import{_ as e,o as n,c as t,a as o}from"./index-26ce9916.js";const c={name:"IndexAnnouncement"},s={id:"page-content"},a=o("h4",null,null,-1),_=[a];function r(d,i,p,l,u,m){return n(),t("section",s,_)}const h=e(c,[["render",r]]);export{h as default};

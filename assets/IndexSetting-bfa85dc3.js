@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as n}from"./index-26ce9916.js";const o={name:"IndexSetting"};function c(s,a,r,i,p,d){return t(),n("p",null,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ad.")}const m=e(o,[["render",c]]);export{m as default};
