@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply scroll-smooth !outline-none;
+    scrollbar-width: thin;
+}
+
+i[class^="fi-rr-"],
+i[class*=" fi-rr-"],
+span[class^="fi-rr-"],
+span[class*=" fi-rr-"],
+i[class^="fi-br-"],
+i[class*=" fi-br-"],
+span[class^="fi-br-"],
+span[class*=" fi-br-"],
+i[class^="fi-sr-"],
+i[class*=" fi-sr-"],
+span[class^="fi-sr-"],
+span[class*=" fi-sr-"],
+i[class^="fi-brands-"],
+i[class*=" fi-brands-"],
+span[class^="fi-brands-"],
+span[class*=" fi-brands-"] {
+    @apply inline-flex
+}
+
+.writing-side-lr {
+    writing-mode: sideways-lr;
+}
+.writing-side-rl {
+    writing-mode: sideways-rl;
+}
+
+.tooltip.visible {
+    @apply lg:inline-flex
+}
+
+.simplebar-placeholder {
+    @apply hidden
+}
+.simplebar-offset {
+    @apply flex
+}
+.simplebar-content-wrapper,
+.simplebar-content {
+    @apply grow flex flex-col
+}
+.simplebar-track.simplebar-vertical {
+    @apply !w-[6px]
+}
+.simplebar-scrollbar {
+    @apply before:!top-[1px] before:!right-[1px] before:!left-[1px] before:!bottom-[1px] before:!bg-slate-900/50
+}
+
+body {
+    @apply bg-slate-50 dark:bg-slate-900 text-slate-500 dark:text-slate-300 text-sm leading-base-sm
+}
+
+a {
+    @apply hover:text-slate-900    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    @apply text-slate-900 dark:text-white !leading-[1.2] font-medium mb-6 mt-8 first:mt-0 last:mb-0
+}
+.heading-title {
+    @apply font-bold !leading-[1.15] -tracking-[0.015em]
+}
+h1 {@apply text-6xl}
+h2 {@apply text-5xl}
+h3 {@apply text-4xl}
+h4 {@apply text-3xl}
+h5 {@apply text-2xl}
+h6 {@apply text-xs}
+
+/*BUTTON*/
+.btn {
+    @apply flex-shrink-0 inline-flex items-center justify-center border border-transparent rounded-full font-medium leading-5 py-4 px-8 text-slate-900
+    hover:bg-slate-200
+}
+.btn-dark {
+    @apply bg-slate-900 text-slate-300
+    hover:text-white
+}
+.btn-primary {
+    @apply bg-blue-600 text-white
+    hover:bg-blue-700
+    hover:text-white
+}
+.btn-primary-light {
+    @apply bg-blue-100 text-blue-600
+    hover:bg-blue-200
+    hover:text-blue-600
+}
+.btn-outline {
+    @apply border-slate-200
+}
+.btn-icon {
+    @apply text-xl p-4
+}
+.btn-icon.btn-sm {
+    @apply p-[0.563rem]
+}
+
+/* CHECKBOX */
+input {
+    @apply appearance-none;
+    -webkit-appearance: textField
+}
+.input-checkbox {
+    @apply inline-flex
+}
+.input-checkbox label {
+    @apply inline-flex select-none cursor-pointer space-x-3
+}
+.input-checkbox label:hover .checkbox-icon {
+    @apply bg-slate-300
+}
+.input-checkbox input:checked + label .checkbox-icon {
+    @apply bg-blue-600 ring-6 ring-blue-600/20 text-white
+}
+.input-checkbox .checkbox-icon {
+    @apply w-5 h-5 flex items-center justify-center my-[2px] bg-slate-200 text-slate-400 rounded-full
+}
+
+/* INPUT */
+select {
+    @apply appearance-none
+}
+
+.input-label {
+    @apply px-3 inline-flex text-xs uppercase tracking-wide text-slate-500
+}
+.input-form {
+    @apply px-3 w-full py-4 bg-transparent text-slate-900 border-t border-b border-t-transparent border-b-slate-200 leading-5
+    placeholder:text-slate-300
+    focus:border-b-slate-900
+    invalid:!border-b-red-500
+}
+.input-valid .input-form {
+    @apply border-b-slate-900
+}
+
+.menu-link.is-active .menu-icon {
+    @apply !bg-slate-900/10 !text-white
+}

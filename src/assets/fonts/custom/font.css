@@ -1,0 +1,110 @@
+/* Graphik */
+@font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Graphik-Regular.woff2") format("woff2"),
+         url("Graphik-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 500;
+    src: url("Graphik-Medium.woff2") format("woff2"),
+         url("Graphik-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 600;
+    src: url("Graphik-Semibold.woff2") format("woff2"),
+         url("Graphik-Semibold.woff") format("woff");
+}
+@font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 700;
+    src: url("Graphik-Bold.woff2") format("woff2"),
+         url("Graphik-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 900;
+    src: url("Graphik-Black.woff2") format("woff2"),
+         url("Graphik-Black.woff") format("woff");
+}
+
+/* Space Grotesk */
+@font-face {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    src: url("SpaceGrotesk-Regular.woff2") format("woff2"),
+         url("SpaceGrotesk-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    src: url("SpaceGrotesk-Medium.woff2") format("woff2"),
+         url("SpaceGrotesk-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    src: url("SpaceGrotesk-SemiBold.woff2") format("woff2"),
+         url("SpaceGrotesk-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    src: url("SpaceGrotesk-Bold.woff2") format("woff2"),
+         url("SpaceGrotesk-Bold.woff") format("woff");
+}
+
+/* Apercu */
+@font-face {
+    font-family: "Apercu Pro";
+    font-style: normal;
+    font-weight: 200;
+    src: url("ApercuPro-Thin.woff") format("woff"),
+         url("ApercuPro-Thin.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Apercu Pro";
+    font-style: normal;
+    font-weight: 300;
+    src: url("ApercuPro-Light.woff2") format("woff2"),
+         url("ApercuPro-Light.woff") format("woff");
+}
+@font-face {
+    font-family: "Apercu Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: url("ApercuPro-Regular.woff2") format("woff2"),
+         url("ApercuPro-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "Apercu Pro";
+    font-style: normal;
+    font-weight: 500;
+    src: url("ApercuPro-Medium.woff2") format("woff2"),
+         url("ApercuPro-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "Apercu Pro";
+    font-style: normal;
+    font-weight: 700;
+    src: url("ApercuPro-Bold.woff2") format("woff2"),
+         url("ApercuPro-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: "Apercu Pro";
+    font-style: normal;
+    font-weight: 800;
+    src: url("ApercuPro-Black.woff2") format("woff2"),
+         url("ApercuPro-Black.woff") format("woff");
+}
